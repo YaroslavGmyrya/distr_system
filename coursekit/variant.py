@@ -5,11 +5,11 @@ from pathlib import Path
 
 
 def student_id():
-    return os.getenv('STUDENT_ID', 's01')
+    return os.getenv('STUDENT_ID', 's06')
 
 
 def student_group():
-    return os.getenv('GROUP', '431')
+    return os.getenv('GROUP', '331')
 
 
 def repo_root():
