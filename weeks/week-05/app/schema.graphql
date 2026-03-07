@@ -1,1 +1,14 @@
-# В этом месте вам необходимо: опишите GraphQL схему
+type Order {
+  id: Int
+  product: String
+  quantity: Int
+}
+
+type Query {
+  orders: [Order]       # return list of orders
+  order(id: Int): Order # return one order
+}
+
+type Mutation {
+  createOrder(product: String, quantity: Int): Order
+}
