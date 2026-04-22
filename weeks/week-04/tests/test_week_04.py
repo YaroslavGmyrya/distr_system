@@ -1,8 +1,8 @@
 
 import importlib.util
 from pathlib import Path
-from coursekit.koan import need_eq, need
-from coursekit.variant import load_variant
+from distr_system.coursekit.koan import need_eq, need
+from distr_system.coursekit.variant import load_variant
 
 ROOT = Path(__file__).resolve().parents[3]
 APP_PATH = ROOT / 'weeks' / 'week-04' / 'app' / 'saga.py'

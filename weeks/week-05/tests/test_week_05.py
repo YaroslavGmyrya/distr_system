@@ -1,7 +1,7 @@
 
 from pathlib import Path
-from coursekit.variant import load_variant
-from coursekit.koan import need
+from distr_system.coursekit.variant import load_variant
+from distr_system.coursekit.koan import need
 
 WEEK = "05"
 ROOT = Path(__file__).resolve().parents[3]

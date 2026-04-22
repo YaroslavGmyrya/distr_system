@@ -5,7 +5,7 @@ from pathlib import Path
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 
-from coursekit.variant import load_variant, student_id, student_group
+from distr_system.coursekit.variant import load_variant, student_id, student_group
 
 def main():
     if len(sys.argv) < 2:

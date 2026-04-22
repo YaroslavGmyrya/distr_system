@@ -1,7 +1,7 @@
 
 from pathlib import Path
-from coursekit.koan import need
-from coursekit.variant import load_variant
+from distr_system.coursekit.koan import need
+from distr_system.coursekit.variant import load_variant
 
 ROOT = Path(__file__).resolve().parents[3]
 CHART = ROOT / 'weeks' / 'week-13' / 'chart' / 'Chart.yaml'
