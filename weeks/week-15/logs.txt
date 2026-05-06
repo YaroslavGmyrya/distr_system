@@ -1,0 +1,91 @@
+Running 30s test @ http://service.finik.publicvm.com/books
+  4 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    90.14ms    9.43ms 150.05ms   75.33%
+    Req/Sec    22.19      5.08    40.00     75.88%
+  2655 requests in 30.04s, 0.89MB read
+Requests/sec:     88.39
+Transfer/sec:     30.30KB
+\n\n
+Running 30s test @ http://service.finik.publicvm.com/books
+  4 threads and 20 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    96.99ms   15.71ms 232.60ms   84.48%
+    Req/Sec    51.69      9.67    80.00     84.76%
+  6168 requests in 30.03s, 2.06MB read
+Requests/sec:    205.38
+Transfer/sec:     70.40KB
+\n\n
+Running 30s test @ http://service.finik.publicvm.com/books
+  4 threads and 30 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   103.30ms   20.35ms 255.46ms   83.86%
+    Req/Sec    68.10     14.84   111.00     81.42%
+  8098 requests in 30.03s, 2.71MB read
+Requests/sec:    269.63
+Transfer/sec:     92.42KB
+\n\n
+Running 30s test @ http://service.finik.publicvm.com/books
+  4 threads and 40 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   115.18ms   37.48ms 406.80ms   90.33%
+    Req/Sec    89.37     25.00   141.00     79.47%
+  10502 requests in 30.04s, 3.52MB read
+Requests/sec:    349.63
+Transfer/sec:    119.84KB
+\n\n
+Running 30s test @ http://service.finik.publicvm.com/books
+  4 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   110.30ms   23.33ms 285.51ms   82.27%
+    Req/Sec   109.66     26.56   181.00     78.43%
+  13015 requests in 30.04s, 4.36MB read
+Requests/sec:    433.21
+Transfer/sec:    148.49KB
+\n\n
+Running 30s test @ http://service.finik.publicvm.com/books
+  4 threads and 60 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   116.56ms   27.56ms 349.73ms   82.24%
+    Req/Sec   129.44     34.21   202.00     78.91%
+  15384 requests in 30.03s, 5.15MB read
+Requests/sec:    512.29
+Transfer/sec:    175.60KB
+\n\n
+Running 30s test @ http://service.finik.publicvm.com/books
+  4 threads and 70 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   120.44ms   34.57ms 420.82ms   88.89%
+    Req/Sec   143.26     38.78   210.00     80.57%
+  17000 requests in 30.04s, 5.69MB read
+Requests/sec:    565.94
+Transfer/sec:    193.99KB
+\n\n
+Running 30s test @ http://service.finik.publicvm.com/books
+  4 threads and 80 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   161.27ms  159.10ms   1.70s    93.95%
+    Req/Sec   150.80     55.16   252.00     75.60%
+  17146 requests in 30.04s, 5.74MB read
+  Socket errors: connect 0, read 0, write 0, timeout 7
+Requests/sec:    570.79
+Transfer/sec:    195.65KB
+\n\n
+Running 30s test @ http://service.finik.publicvm.com/books
+  4 threads and 90 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   140.40ms   69.30ms 846.54ms   91.98%
+    Req/Sec   168.55     53.66   262.00     80.85%
+  19528 requests in 30.04s, 6.54MB read
+Requests/sec:    650.06
+Transfer/sec:    222.82KB
+\n\n
+Running 30s test @ http://service.finik.publicvm.com/books
+  4 threads and 100 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   162.39ms  108.03ms   1.20s    92.26%
+    Req/Sec   171.71     67.18   290.00     64.35%
+  20031 requests in 30.03s, 6.71MB read
+Requests/sec:    666.97
+Transfer/sec:    228.62KB
+\n\n
